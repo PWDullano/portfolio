@@ -18,32 +18,8 @@
   .bodyContent{
     background-color: #2F3331;
     color: #65B18A;
-    height: 99vh;
+    height: 100vh;
     width: 100vw;
   }
 
-  .bottomLayout{
-    width: 100vw;
-  }
-
-  .leftContent{
-    background-color: white;
-    height: 30vh;
-    color: black;
-  }
-
-  .leftBody, .middleBody, .rightBody{
-    margin: 0px;
-  }
-
-  .middleContent{
-    background-color: #65B18A;
-    height: 30vh;
-  }
-
-  .rightContent{
-    background-color: black;
-    height: 30vh;
-  }
-
-}
+  

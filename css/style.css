@@ -19,19 +19,20 @@ body{
 }
 
 .leftText{
+  background-color: black;
+  color: white;
   text-align: center;
   margin-left: -40px;
   height: 100%;
   padding: 3vh 1vw 3vh 0;
 }
 
-a.leftLink{
+.projectLinks{
+  background-color: black;
   color: white;
-  text-decoration:none;
-}
-
-a.leftLink:hover{
-  color: silver;
+  text-align: center;
+  margin-right: 30px;
+  padding: 2vh 0 2vh 0;
 }
 
 .middleHeader{
@@ -91,13 +92,12 @@ a.leftLink:hover{
   padding: 3vh 0 3vh 0;
 }
 
-a.rightLink{
-  text-decoration: none;
+.aboutLinks{
+  background-color: white;
   color: black;
-}
-
-a.rightLink:hover{
-  color: silver;
+  text-align: center;
+  margin-left: 30px;
+  padding: 2vh 0 2vh 0;
 }
 
 .leftText, .rightText{
@@ -110,7 +110,7 @@ a.rightLink:hover{
 }
 
 .bodyContent{
-  height: 55vh;
+  height: 90vh;
   width: 100vw;
   background-color: #2F3331;
   color: #65B18A;
@@ -121,32 +121,4 @@ a.rightLink:hover{
   width: 100%;
   height: 100%;
   font-size: 30px;
-}
-
-.bottomLayout{
-  width: 100vw;
-}
-
-.leftContent{
-  text-align: center;
-  background-color: white;
-  height: 35vh;
-  color: black;
-}
-
-.leftBody, .middleBody, .rightBody{
-  font-size: 20px;
-}
-
-.middleContent{
-  text-align: center;
-  background-color: #65B18A;
-  height: 35vh;
-}
-
-.rightContent{
-  text-align: center;
-  background-color: black;
-  height: 35vh;
-  color: white;
 }

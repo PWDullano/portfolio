@@ -9,13 +9,16 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" media="(max-width: 600px)" href="css/smaller.css" />
   </head>
-  <body>
+  <body ng-controller="mainController">
     <div class="header container">
       <div class='row'>
         <div class='leftHeader col-xs-5 col-sm-5 col-md-5 pull-left'>
-          <a class='leftLink' href="/#/projects">
-            <p class='leftText'>Projects</p>
-          </a>
+            <p class='leftText' ng-click="ToggleProjects()" >Projects <span class='glyphicon glyphicon-chevron-down'></span></p>
+            <ul class ='list-unstyled' ng-show="showProjects">
+              <li class='projectLinks'>Spontaneus Listener</li>
+              <li class='projectLinks'>Noobish</li>
+              <li class='projectLinks'>Shopping Cart</li>
+            </ul>
         </div>
         <div class='middleHeader col-xs-2 col-sm-2 col-md-2 pull-left'>
           <a href="/#/">
@@ -23,8 +26,12 @@
           </a>
         </div>
         <div class='rightHeader col-xs-5 col-sm-5 col-md-5 pull-right'>
-          <a class='rightLink' href="/#/about">
-            <p class='rightText'>About</p>
+            <p class='rightText' ng-click="ToggleAbout()">About <span class='glyphicon glyphicon-chevron-down'></span></p>
+            <ul class='list-unstyled' ng-show="showAbout">
+              <li class='aboutLinks'>Bio</li>
+              <li class='aboutLinks'>Github</li>
+              <li class='aboutLinks'>LinkedIn</li>
+            </ul>
           </a>
         </div>
       </div>
