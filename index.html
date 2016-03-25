@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+  <head>
+    <meta charset="utf-8">
+    <title>Patrick W. Dullano</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="(max-width: 600px)" href="css/smaller.css" />
+  </head>
+  <body>
+    <div class="header container">
+      <div class='row'>
+        <div class='leftHeader col-xs-5 col-sm-5 col-md-5 pull-left'>
+          <a class='leftLink' href="/#/projects">
+            <p class='leftText'>Projects</p>
+          </a>
+        </div>
+        <div class='middleHeader col-xs-2 col-sm-2 col-md-2 pull-left'>
+          <a href="/#/">
+            <img id='logo' src="PDlogo.png" alt="logo" />
+          </a>
+        </div>
+        <div class='rightHeader col-xs-5 col-sm-5 col-md-5 pull-right'>
+          <a class='rightLink' href="/#/about">
+            <p class='rightText'>About</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div ng-view></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <script type="text/javascript"src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.js"></script>
+  <script type="text/javascript"src='js/app.js'></script>
+  <script type="text/javascript"src='js/rotate.js'></script>
+  <script type="text/javascript"src='js/controllers/main_controller.js'></script>
+  </body>
+</html>

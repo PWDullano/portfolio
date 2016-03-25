@@ -1,0 +1,152 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  background-color: #E0E0E0;
+}
+
+.header{
+  width: 100vw;
+  height: 10vh;
+}
+
+.leftHeader{
+  background-color: black;
+  width: 50vw;
+  height: 10vh;
+  z-index: 1;
+}
+
+.leftText{
+  text-align: center;
+  margin-left: -40px;
+  height: 100%;
+  padding: 3vh 1vw 3vh 0;
+}
+
+a.leftLink{
+  color: white;
+  text-decoration:none;
+}
+
+a.leftLink:hover{
+  color: silver;
+}
+
+.middleHeader{
+  position: absolute;
+  width: 80px;
+  height: 71px;
+  left: 50%;
+  right: 50%;
+  z-index: 2;
+  margin-left: -40px;
+}
+
+#logo{
+  width: 100%;
+  height: 100%;
+  border-left: 3px solid #65B18A;
+  border-right: 3px solid #65B18A;
+}
+
+.over {
+  transform:             rotate( -180deg );
+      -moz-transform:    rotate( -180deg );
+      -ms-transform:     rotate( -180deg );
+      -o-transform:      rotate( -180deg );
+      -webkit-transform: rotate( -180deg );
+  transition:             transform 550ms ease;
+      -moz-transition:    -moz-transform 550ms ease;
+      -ms-transition:     -ms-transform 550ms ease;
+      -o-transition:      -o-transform 550ms ease;
+      -webkit-transition: -webkit-transform 550ms ease;
+}
+
+.out {
+  transform:             rotate( -360deg );
+      -moz-transform:    rotate( -360deg );
+      -ms-transform:     rotate( -360deg );
+      -o-transform:      rotate( -360deg );
+      -webkit-transform: rotate( -360deg );
+  transition:             transform 550ms ease;
+      -moz-transition:    -moz-transform 550ms ease;
+      -ms-transition:     -ms-transform 550ms ease;
+      -o-transition:      -o-transform 550ms ease;
+      -webkit-transition: -webkit-transform 550ms ease;
+}
+
+.rightHeader{
+  background-color: white;
+  width: 50vw;
+  height: 10vh;
+  z-index: 1;
+}
+
+.rightText{
+  text-align: center;
+  margin-left: 40px;
+  height: 100%;
+  padding: 3vh 0 3vh 0;
+}
+
+a.rightLink{
+  text-decoration: none;
+  color: black;
+}
+
+a.rightLink:hover{
+  color: silver;
+}
+
+.leftText, .rightText{
+  font-size: 18px;
+}
+
+.bodyLayout{
+  width: 100vw;
+  height: 50vh;
+}
+
+.bodyContent{
+  height: 55vh;
+  width: 100vw;
+  background-color: #2F3331;
+  color: #65B18A;
+}
+
+.bodyText{
+  opacity: .5;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+}
+
+.bottomLayout{
+  width: 100vw;
+}
+
+.leftContent{
+  text-align: center;
+  background-color: white;
+  height: 35vh;
+  color: black;
+}
+
+.leftBody, .middleBody, .rightBody{
+  font-size: 20px;
+}
+
+.middleContent{
+  text-align: center;
+  background-color: #65B18A;
+  height: 35vh;
+}
+
+.rightContent{
+  text-align: center;
+  background-color: black;
+  height: 35vh;
+  color: white;
+}
