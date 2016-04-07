@@ -13,12 +13,9 @@
     <div class="header container">
       <div class='row'>
         <div class='leftHeader col-xs-5 col-sm-5 col-md-5 pull-left'>
-            <p class='leftText' ng-click="ToggleProjects()">Projects <span class='glyphicon glyphicon-chevron-down'></span></p>
-            <ul class ='list-unstyled' ng-show="showProjects">
-              <li class='projectLinks'>Spontaneus Listener</li>
-              <li class='projectLinks'>Noobish</li>
-              <li class='projectLinks'>Shopping Cart</li>
-            </ul>
+          <a class='leftLink' href="/#/projects">
+            <p class='leftText' ng-click="ToggleProjects()">P r o j e c t s</p>
+          </a>
         </div>
         <div class='middleHeader col-xs-2 col-sm-2 col-md-2 pull-left'>
           <a href="/#/">
@@ -26,15 +23,17 @@
           </a>
         </div>
         <div class='rightHeader col-xs-5 col-sm-5 col-md-5 pull-right'>
-            <p class='rightText' ng-click="ToggleAbout()">About <span class='glyphicon glyphicon-chevron-down'></span></p>
-            <ul class='list-unstyled' ng-show="showAbout">
-              <li class='aboutLinks'>Bio</li>
-              <li class='aboutLinks'>Github</li>
-              <li class='aboutLinks'>LinkedIn</li>
-            </ul>
+          <a class='rightLink' href="/#/about">
+            <p class='rightText' ng-click="ToggleAbout()">A b o u t</p>
           </a>
         </div>
       </div>
+    </div>
+    <div class="bodyLayout container">
+      <div class='row'>
+        <div class='bodyContent'>
+          <img class='bodyText' src='empSeattleBW.jpg'>
+        </div>
     </div>
     <div ng-view></div>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>

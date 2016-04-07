@@ -3,8 +3,10 @@
 }
 
 .header{
+  position: fixed;
   width: 100vw;
   height: 10vh;
+  z-index: 2;
 }
 
 .leftHeader{
@@ -16,11 +18,19 @@
 
 .leftText{
   background-color: black;
-  color: white;
   text-align: center;
   margin-left: -40px;
   height: 100%;
   padding: 3vh 1vw 3vh 0;
+}
+
+a.leftLink{
+  color: white;
+  text-decoration:none;
+}
+
+a.leftLink:hover{
+  color: silver;
 }
 
 .projectLinks{
@@ -81,6 +91,19 @@
   z-index: 1;
 }
 
+a.rightLink{
+  text-decoration: none;
+  color: black;
+}
+
+a.rightLink:hover{
+  color: silver;
+}
+
+.leftText, .rightText{
+  font-size: 18px;
+}
+
 .rightText{
   text-align: center;
   margin-left: 40px;
@@ -113,6 +136,7 @@
 }
 
 .bodyText{
+  position: fixed;
   opacity: .5;
   width: 100%;
   height: 100%;
